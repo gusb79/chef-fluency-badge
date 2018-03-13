@@ -1,0 +1,12 @@
+{
+  "name": "tomcatrole",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "description": "Example role", 
+  "override_attributes": {
+    "server": { "tomcat-port" : "8181" }
+  },
+  "run_list": [
+    "role[base]", "recipe[tomcat]"
+  ]
+}
