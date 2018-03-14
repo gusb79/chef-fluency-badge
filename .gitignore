@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Below are example of common git excludes.
 ## Please note that /cookbooks folder is ignored. This allows users to
 ## clone individual cookbooks into the /cookbook folder of the chef repo
@@ -122,3 +123,57 @@ nodes
 
 # ## Office Temp Files
 # ~$*
+=======
+# Chef
+.chef/*.pem
+.chef/encrypted_data_bag_secret
+
+# Ruby
+.rake_test_cache
+.rvmrc
+.rbenv-version
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+
+# Emacs org-mode
+.org-id-locations
+*_archive
+
+# SublimeText
+*.sublime-workspace
+
+# TextMate
+*.tmproj
+*.tmproject
+tmtags
+
+# Vim
+.*.s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+>>>>>>> fa898973a635eb72e033d98378bf794b2571a349
